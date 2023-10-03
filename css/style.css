@@ -1,0 +1,141 @@
+body{
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    padding: 0px;
+}
+
+.image-container {
+    position: relative;
+}
+
+  /* Estilos para la imagen */
+.image-container img {
+    width: 100%; /* Ocupa el 100% del ancho del contenedor */
+    height: 50%;
+}
+
+  /* Estilos para el texto encima de la imagen */
+#frase1 {
+    position: absolute;
+    top: 70px; /* Ajusta la posición vertical según tus preferencias */
+    right: 0; /* Ajusta la posición horizontal para la esquina derecha */
+    width: 50%; /* Ocupa el 50% del ancho del contenedor */
+    padding: 10px; /* Espacio alrededor del texto */
+    color: #ffffff !important; /* Cambia el color del texto a blanco */
+}
+
+#more-info {
+    background-color: #464646; /* Color de fondo del botón */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    position: absolute;
+    top: 180px; /* Ajusta la posición vertical del botón para moverlo hacia abajo */
+    right: 30px; /* Ajusta la posición horizontal para alinear con la frase */
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  #more-info:hover {
+    background-color: #969696; /* Color de fondo del botón en el hover */
+}
+
+.navbar-top {
+    background-color: #d6d6d6; /* Color de fondo */
+    padding: 10px;
+    height: 60px; /* Ajusta la altura según tus preferencias */
+}
+
+.navbar-top .navbar-brand {
+    color: black;
+}
+
+.navbar-top a.nav-link {
+    color: black;
+}
+
+#frase1{ /* */
+    margin: 10px;
+    padding: 20px;
+    color: rgb(59, 59, 59);
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+
+.center-container {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: #d6d6d6;
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    transition: transform 0.3s; 
+}
+
+.hover-card:hover {
+    transform: scale(1.05);
+}
+
+#history{
+    margin: 10px;
+    padding: 20px;
+    color: rgb(59, 59, 59);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.redescontainer{
+    display: flex;
+    height: 30vh;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 37%;
+    margin-right: 37%;
+    list-style: none;
+}
+.redescontainer ul li {
+    display: inline-block;
+    margin: 0 10px; 
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+
+.redescontainer li a {
+    display: block;
+    width: 40px; /* Ajusta el ancho según tus preferencias */
+    height: 40px; /* Ajusta la altura según tus preferencias */
+    background: rgb(243, 243, 243);
+    color: rgb(5, 5, 5);
+    text-align: center;
+    line-height: 40px; /* Ajusta el valor para centrar el contenido verticalmente */
+    font-size: 18px;
+    border-radius: 50%; /* Esto hace que el botón sea circular */
+    box-shadow: 0 2px 4px 0px rgb(150, 150, 150);
+}
+
+.redescontainer li a:hover {
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgb(24, 0, 31);
+    filter: none;
+}
+
+.navbar-bottom {
+    height: 80px; /* Ajusta la altura según tus preferencias */
+    background-color: #d6d6d6; /* Cambia el color de fondo a violeta */
+}
+
+.navbar-bottom .navbar-brand {
+    height: 80px; /* Ajusta la altura según tus preferencias */
+    line-height: 80px; /* Alinea verticalmente el contenido */
+}
